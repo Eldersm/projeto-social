@@ -8,11 +8,11 @@
 
 html , body {
     height: 100vh;
-    width: 100vw;
+    width: 96vw;
 }
 
 body {
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center fixed;
     background-size: cover;
 
 }
@@ -29,4 +29,25 @@ section#fone {
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%) ;
+}
+
+iframe {
+    width: 269px;
+    height: 473px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform:translate(-50%,-50%) ;
+}
+section#social img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+section#social {
+    text-align:right;
+}
+section#social img:hover {
+    border: 1px solid white;
 }
