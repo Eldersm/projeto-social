@@ -32,8 +32,8 @@ section#fone {
 }
 
 iframe {
-    width: 269px;
-    height: 473px;
+    width: 265px;
+    height: 470px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -52,5 +52,4 @@ section#social {
 section#social img:hover {
     border: 1px solid white;
     padding: 1px;
-    margin: 12px;
 }
